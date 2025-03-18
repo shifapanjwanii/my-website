@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 456f31b2-9a45-4cc7-bea4-80e2018cd53c
+      url: 'https://dancing-crostata-e898f3.netlify.app'
