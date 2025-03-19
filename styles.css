@@ -20,18 +20,18 @@
     </header>
     <section id="about">
         <h2>About Me</h2>
-        <p>Hi, I'm [Your Name]. I'm passionate about data science, business intelligence, and technology.</p>
+        <p>"Hi, Im [Your Name]. I'm passionate about data science, business intelligence, and technology."</p>
     </section>
     <section id="projects">
         <h2>Projects</h2>
         <div class="projects container">
             <div>
-                <h3>Project 1</h3>
-                <p>Description of project 1.</p>
+                <h3>Project1 </h3>
+                <p>Description of project1.</p>
             </div>
             <div>
-                <h3>Project 2</h3>
-                <p>Description of project 2.</p>
+                <h3>Project2</h3>
+                <p>Description of project2.</p>
             </div>
         </div>
     </section>
@@ -45,7 +45,7 @@
         <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your Profile</a></p>
     </section>
     <footer>
-        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+        <p>&copy; Your Name. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
