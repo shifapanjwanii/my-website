@@ -1,9 +1,25 @@
 ---
 title: "Shifa Panjwani"
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
 ---
 
-This is a Quarto website.
+<div class="profile">
+  <img src="profile.jpg" alt="Shifa Panjwani" class="profile-pic">
+  <h1>Shifa Panjwani</h1>
+  <p>🌱 Data Enthusiast | Aspiring BI Developer | Tech Explorer 🖥️</p>
+</div>
 
-```{r}
-1 + 1
-```
+<div class="social-links">
+  <a href="https://github.com/yourgithub" target="_blank">GitHub</a>
+  <a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a>
+  <a href="mailto:youremail@example.com">Email</a>
+</div>
+
+<section class="bio">
+  <h2>Hi there! 👋</h2>
+  <p>Welcome to my portfolio. I'm passionate about data, business intelligence, and creating insightful visualizations.</p>
+</section>

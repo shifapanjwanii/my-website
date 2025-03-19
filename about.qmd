@@ -1,7 +1,13 @@
 ---
 title: "About"
+format:
+  html:
+    theme: cosmo
+    css: styles.css
 ---
 
-About me: 
-
-Name: Shifa
+<div class="bio">
+  <h2>About Me</h2>
+  <p>Hi! My name is Shifa Panjwani. I am currently a Business Intelligence Developer Intern with experience in Power BI, RStudio, and SQL.</p>
+  <p>My interests include data visualization, database management, and machine learning.</p>
+</div>

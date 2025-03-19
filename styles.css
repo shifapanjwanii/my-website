@@ -1,51 +1,55 @@
-/* css styles */
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
-        header { background: #333; color: white; padding: 1em; }
-        section { margin: 20px; padding: 20px; }
-        .container { width: 80%; margin: auto; }
-        .projects div { margin: 10px 0; padding: 10px; border: 1px solid #ccc; }
-        footer { background: #333; color: white; padding: 10px; position: fixed; width: 100%; bottom: 0; }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>My Portfolio</h1>
-    </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>"Hi, Im [Your Name]. I'm passionate about data science, business intelligence, and technology."</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects container">
-            <div>
-                <h3>Project1 </h3>
-                <p>Description of project1.</p>
-            </div>
-            <div>
-                <h3>Project2</h3>
-                <p>Description of project2.</p>
-            </div>
-        </div>
-    </section>
-    <section id="resume">
-        <h2>Resume</h2>
-        <p><a href="resume.pdf" download>Download My Resume</a></p>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: "youremailexamplecom"</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your Profile</a></p>
-    </section>
-    <footer>
-        <p>&copy; Your Name. All Rights Reserved.</p>
-    </footer>
-</body>
-</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+header {
+    background: #007b5e;
+    color: white;
+    padding: 1em;
+}
+
+.profile {
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #007b5e;
+}
+
+.social-links {
+    margin: 15px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    background-color: #007b5e;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.bio {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #007b5e;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
