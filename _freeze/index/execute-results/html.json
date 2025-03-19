@@ -1,8 +1,8 @@
 {
-  "hash": "aacd42190b4ddd87b276a4cde19bee98",
+  "hash": "1c9bf07da13d83264ea0758abe00aca0",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"my-website\"\nauthor: \"Shifa Panjwani\"\n---\n\n\n\n\nThis is a Quarto website.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\n\n\n```{{=html}}\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>My Portfolio</title>\n    <style>\n        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }\n        header { background: #333; color: white; padding: 1em; }\n        section { margin: 20px; padding: 20px; }\n        .container { width: 80%; margin: auto; }\n        .projects div { margin: 10px 0; padding: 10px; border: 1px solid #ccc; }\n        footer { background: #333; color: white; padding: 10px; position: fixed; width: 100%; bottom: 0; }\n    </style>\n</head>\n```\n",
+    "markdown": "---\ntitle: \"my-website\"\nauthor: \"Shifa Panjwani\"\n---\n\n\n\n\nThis is a Quarto website.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
