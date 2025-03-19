@@ -1,8 +1,8 @@
 {
-  "hash": "1c9bf07da13d83264ea0758abe00aca0",
+  "hash": "ebdb358710ddcc0ea8872e789bc97f6f",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"my-website\"\nauthor: \"Shifa Panjwani\"\n---\n\n\n\n\nThis is a Quarto website.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "markdown": "---\ntitle: \"Shifa Panjwani\"\n---\n\n\n\n\nThis is a Quarto website.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

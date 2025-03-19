@@ -1,6 +1,5 @@
 ---
-title: "my-website"
-author: "Shifa Panjwani"
+title: "Shifa Panjwani"
 ---
 
 This is a Quarto website.
