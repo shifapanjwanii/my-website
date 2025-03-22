@@ -1,0 +1,7 @@
+---
+title: "Project 1"
+author: "Shifa Panjwani"
+date: "2025-03-20"
+categories: [github, vscode, ml]
+---
+

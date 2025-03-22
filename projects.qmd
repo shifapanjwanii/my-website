@@ -1,27 +1,13 @@
 ---
-title: "Projects"
-format:
-  html:
-    theme: cosmo
-    css: styles.css
+title: "My Projects"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
 ---
 
-<div class="projects">
-  <h2>My Projects</h2>
-  <p>Here are some of the projects I've worked on.</p>
-
-  <div class="project-item">
-    <h3>📊 Data Dashboard</h3>
-    <p>Created an interactive Power BI dashboard for business intelligence insights.</p>
-  </div>
-
-  <div class="project-item">
-    <h3>📂 Database Management</h3>
-    <p>Designed and optimized a relational database for an e-commerce platform.</p>
-  </div>
-
-  <div class="project-item">
-    <h3>📈 Machine Learning Model</h3>
-    <p>Built a predictive model for customer churn analysis.</p>
-  </div>
-</div>

@@ -5,13 +5,19 @@ website:
   title: "Shifa Panjwani"
   navbar:
     left:
-      - href: index.qmd
-        text: About
-      - href: projects.qmd
-        text: Projects
-      - href: cv.qmd
-        text: CV
-  favicon: "favicon.ico"
+      - text: "Home"
+        file: index.qmd
+      - text: "Projects"
+        file: projects.qmd
+      - text: "CV"
+        file: cv.qmd
+    right:
+      - icon: github
+        href: https://github.com/shifapanjwanii
+      - icon: linkedin
+        href: "www.linkedin.com/in/shifapanjwanii"
+      - icon: envelope
+        href: "mailto:shifapanjwani30@gmail.com"
 
 format:
   html:
