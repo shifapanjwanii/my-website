@@ -1,7 +1,15 @@
 ---
-title: "Project 1"
+title: "Sample Analysis"
 author: "Shifa Panjwani"
 date: "2025-03-20"
-categories: [github, vscode, ml]
+categories: [tidymodels, tidyverse, ggplot2]
 ---
+
+For this project, I used the 'Student Performance in Exams' data set from Kaggle. 
+
+This project understands how student performance (test scores) is affected by other variables like Gender, Ethnicity, Parent level of Education, Lunch, and Test Preparation Course.
+
+Data Source: https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977
+
+GitHub Repository: https://github.com/shifapanjwanii/stud_pred_R
 
