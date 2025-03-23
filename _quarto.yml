@@ -9,8 +9,6 @@ website:
         file: index.qmd
       - text: "Projects"
         file: projects.qmd
-      - text: "CV"
-        file: cv.qmd
     right:
       - icon: github
         href: https://github.com/shifapanjwanii
