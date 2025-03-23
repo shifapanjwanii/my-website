@@ -1,6 +1,6 @@
 ---
 title: "Shifa Panjwani"
-image: profile.JPG
+image: profile6.JPG
 about: 
   template: jolla
   links:
