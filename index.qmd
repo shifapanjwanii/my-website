@@ -6,12 +6,12 @@ about:
   links:
     - icon: github
       text: GitHub
-      href: https://github.com/shifapanjwanii
+      href: "https://github.com/shifapanjwanii"
     - icon: linkedin
       text: LinkedIn
-      href: www.linkedin.com/in/shifapanjwanii
+      href: "www.linkedin.com/in/shifapanjwanii"
 ---
 
-Shifa Panjwani is an aspiring BI Developer currently pursuing a B.S. in Mathematics-Computer Science & Finance at College of Idaho. With a strong interest in data visualization, she enjoys creating intuitive dashboards on Power BI and Tableau to make complex data accessible and actionable. Right now, she's diving deeper into [data-viz](#0) and preparing for the [PL-300 Certification](#0) to further expand her skill set.
+Shifa Panjwani is an aspiring BI Developer currently pursuing a B.S. in Mathematics-Computer Science & Finance at College of Idaho. With a strong interest in data visualization, she enjoys creating intuitive dashboards on Power BI and Tableau to make complex data accessible and actionable. Right now, she's diving deeper into [data-viz](https://pudding.cool/2018/08/pockets/) and preparing for the [PL-300 Certification](https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/?practice-assessment-type=certification) to further expand her skill set.
 
-[Resume](Shifa_Panjwani_Resume - 427.pdf) • [Cover Letter](Shifa_Panjwani_CL - 427.pdf)
+[Resume](Shifa_Panjwani_Resume%20-%20427.pdf) • [Cover Letter](Shifa_Panjwani_CL%20-%20427.pdf)
