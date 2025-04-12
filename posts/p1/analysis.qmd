@@ -256,7 +256,12 @@ recipe_knn3 <- recipe(math_score ~ ., data = train_data) |>
 
 ## Model Definition
 
-This section defines the models that will be used for regression tasks. A Linear Regression model and 3 KNN models with different values for k are created.
+This section focuses on **Linear Regression** & **KNN Regression** and defines the two fundamentally different approaches:
+
+1.  **Linear Regression** provide simple, interpretable model. It serves as a baseline and helps identify direct relationships between predictors and math scores.
+2.  **KNN Regression** is a non-parametric, instance-based method that captures more complex, potentially non-linear patterns by predicting values based on neighboring data points.
+
+By selecting these two models, we strike a balance between interpretability and flexibility, allowing us to evaluate how well each captures the underlying patterns in student performance.
 
 ### Linear Regression
 
@@ -269,11 +274,11 @@ lm_model <- linear_reg() |>
 
 ### KNN Models
 
--   *'knn_model3'* uses 3 nearest neighbors for prediction, making it more sensitive to local patterns.
+-   *`knn_model3`* uses 3 nearest neighbors for prediction, making it more sensitive to local patterns.
 
--   *'knn_model5'* uses 5 nearest neighbors, providing a balanced approach between accuracy and stability.
+-   *`knn_model5`* uses 5 nearest neighbors, providing a balanced approach between accuracy and stability.
 
--   *'knn_model10'* uses 10 nearest neighbors, which may generalize better but could miss finer details.
+-   *`knn_model10`* uses 10 nearest neighbors, which may generalize better but could miss finer details.
 
 ```{r}
 knn_model3 <- nearest_neighbor(neighbors = 3) |> 
@@ -311,7 +316,7 @@ lm_workflows <- workflow_set(
 
 ### KNN Workflow Set
 
--   The 'cross = TRUE' parameter ensures that all recipes are applied to each of the models, creating a comprehensive set of workflows.
+-   The `cross = TRUE` parameter ensures that all recipes are applied to each of the models, creating a comprehensive set of workflows.
 
 ```{r}
 knn_workflows <- workflow_set(
@@ -344,7 +349,11 @@ This section performs cross-validation to evaluate the performance of different 
 
 **Cross-Validation:** Split the training data into 5 folds and repeat the process 5 times. It minimizes model bias and variance by averaging results across different folds.
 
-**Evaluation Metrics:** Using RMSE and R-Squared to evaluate model performance.
+**Evaluation Metrics:**
+
+-   Using **RMSE** (Root Mean Squared Error) to measure the average magnitude of prediction errors, with greater emphasis on larger errors, making it useful for understanding model accuracy in the same units as the target variable (Math score).
+
+-   **R-squared** complements this by indicating the proportion of variance in Math scores explained by the model
 
 **Workflow Mapping:** Applying all workflows to the cross-validation splits.
 
@@ -397,11 +406,11 @@ ggplot(cv_metrics |> filter(.metric == "rsq"), aes(x = wflow_id, y = mean, fill 
   theme_minimal()
 ```
 
-***lm_recipe1_lm_model*** **is the our best performing model since it has the lowest RMSE and highest R-Squared.**
+**`lm_recipe1_lm_model`** is the our **best performing model** since it has the lowest RMSE and highest R-Squared.
 
 ## Model Selection, Fitting & Evaluation
 
-This section extracts the best_performing model, fits it to the data, and evaluates its performance on the test set using appropriate metrics.
+The final model selected is the **Linear Regression model trained using Recipe 1**, which includes mean imputation, dummy encoding, and normalization.
 
 ```{r}
 # Extract and Fit Best Model
@@ -415,8 +424,14 @@ final_fit <- last_fit(best_workflow, split = data_split, metrics = metric_set(rm
 
 # Evaluate on Test Set
 test_metrics <- collect_metrics(final_fit)
-test_metrics
+kable(test_metrics)
 
 ```
+
+-   On the test data, it achieved an **RMSE of 5.33**, indicating that the model's predictions are, on average, within about 5.33 points of the actual Math scores.
+
+-   The **R-squared value of 0.868** shows that the model explains approximately 86.8% of the variance in Math scores, suggesting a strong fit.
+
+-   Overall, the model demonstrates **solid predictive performance** and **generalizes well to unseen data**.
 
 This step concludes the modeling process, offering a clear measure of the model's predictive accuracy and effectiveness.
